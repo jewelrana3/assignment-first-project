@@ -58,11 +58,9 @@ header {
     margin: 0 auto;
 }
 
-.my-year img {
-    color: #e7ab94;
-    /* border-radius: 50%;
-    border-top-left-radius: 50%; */
-}
+ .my-year img{
+     color: red;
+ }
 
 .my-title {
     padding: 250px 100px 0;
@@ -183,8 +181,65 @@ header {
 }
 
 .watch {
-    position: absolute;
+    /* position: absolute; */
     margin: 0 auto;
     height: 50vh;
     margin-right: 50px;
+}
+
+/* block scetion styles */
+
+.future {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 100px 250px;
+}
+
+.left {
+    text-align: justify;
+    width: 50%;
+}
+
+.left-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.left-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.right {}
+
+.sub {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.right input {
+    margin-top: 24px;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+}
+
+.mango {
+    margin-top: 30px;
+    color: #F15B22;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.left img{
+    margin-top: 30px;
+    margin-right:11px;
 }
