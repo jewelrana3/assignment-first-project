@@ -2,6 +2,18 @@
     margin: 0;
 }
 
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    line-height: 23px;
+    border: none;
+    margin-top: 20px;
+}
+
 /* header container styles */
 header {
     background-image: url('/images/banner/banner2.png');
@@ -37,4 +49,71 @@ header {
     font-size: 16px;
     line-height: 26px;
     margin-top: 20px;
+}
+
+/* main section styles */
+#section {
+    display: flex;
+    padding: 200px 100px ;
+    margin: 0 auto;
+}
+
+.my-year img {
+    color: #e7ab94;
+    /* border-radius: 50%;
+    border-top-left-radius: 50%; */
+}
+
+.my-title {
+    padding: 250px 100px 0;
+    font-family: 'Work Sans';
+   
+}
+
+.my-title-heading {
+    margin-right:119px ;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.my-title-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.list-style {
+    margin-top: 16px;
+    /* margin-right: 125px; */
+    font-weight: 400;
+    font-size: 16px;
+     
+    color: #444343;
+    text-align: justify;
+    padding: 5px;
+}
+.list-style p{
+    padding: 5px;
+     
+}
+.list-style i{
+    color: #086fab;
+}
+/* my plans styles */
+#my-plans{
+    padding: 10px 200px;
+}
+.my-title{
+    text-align: center;
+}
+.my-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+.my-item{
+    text-align: center;
 }
