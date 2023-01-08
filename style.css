@@ -24,37 +24,51 @@ header {
     background-position: fixed;
 
 }
+/* left side styles */
 
-.header-container {
+
+/* .header-container {    
     padding-top: 150px;
     padding-right: 150px;
     text-align: right;
 }
 
 .header-title {
-    text-align: right;
-    justify-content: center;
-    align-items: center;
     font-weight: 700;
     font-size: 65px;
-
 }
-
 .header-des {
     padding-left: 798px;
-    text-align: right;
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     margin-top: 20px;
+} */
+
+/* header right side style */
+
+
+.header-container{
+    padding-top: 150px;
+    margin-left: 800px;
 }
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.header-des{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    padding-right: 130px;
+}
+
 
 /* main section styles */
 #section {
     display: flex;
-    padding: 200px 100px;
+    padding: 100px 100px;
     margin: 0 auto;
 }
  
@@ -212,7 +226,6 @@ header {
     color: #FFFFFF;
 }
 
-.right {}
 
 .sub {
     font-weight: 600;
